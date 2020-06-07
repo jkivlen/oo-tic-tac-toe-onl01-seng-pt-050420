@@ -83,6 +83,12 @@ def full?
   self.turn_count == 9
  end
  
+ def draw?
+   self.full? && !self.won?
+ end
+ 
+ 
+ 
  
 end
 
