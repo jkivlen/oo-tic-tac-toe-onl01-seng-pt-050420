@@ -80,7 +80,7 @@ def won?
 end
 
 def full?
-  self.turn == 9
+  self.turn_count == 9
  end
  
  
