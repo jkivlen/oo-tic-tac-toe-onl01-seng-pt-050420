@@ -99,7 +99,8 @@ end
    while !over?
    turn
   end
-  puts "Congratulations #"
+  puts "Congratulations #{self.winner}!" if self.won?
+  puts
  end
  
 end
