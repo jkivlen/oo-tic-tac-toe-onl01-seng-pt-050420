@@ -91,7 +91,9 @@ def full?
    self.draw? || self.won?
  end
    
-   
+def winner
+  self.won? ? @board[self.won?[0]] : nill
+end
   
  
  
