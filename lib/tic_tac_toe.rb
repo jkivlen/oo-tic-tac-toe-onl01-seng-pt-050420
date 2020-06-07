@@ -92,7 +92,7 @@ def full?
  end
    
 def winner
-  self.won? ? @board[self.won?[0]] : nill
+  self.won? ? @board[self.won?[0]] : nil
 end
   
  
