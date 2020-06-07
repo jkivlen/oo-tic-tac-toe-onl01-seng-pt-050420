@@ -95,7 +95,12 @@ def winner
   self.won? ? @board[self.won?[0]] : nil
 end
   
- 
+ def play
+   while !over?
+   turn
+  end
+  puts "Congratulations #"
+ end
  
 end
 
