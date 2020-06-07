@@ -67,7 +67,9 @@ end
       self.turn
     end
   end
-  
+
+def won?
+  WIN_COMBINATIONS.any?
   
 end
 
