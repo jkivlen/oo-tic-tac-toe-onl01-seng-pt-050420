@@ -78,6 +78,11 @@ def won?
       false
   end
 end
+
+def full?
+  self.turn == 9
+ end
+ 
  
 end
 
